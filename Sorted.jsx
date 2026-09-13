@@ -7,7 +7,7 @@ function App() {
   ];
 
   function sortedUser(users){
-    return [...users].sort((a,b) => a.age-b.age);
+    return [...users].sort((a,b) => a.age-b.age);    //[...users] means create new array with users elements
   }
 
   const sorted=sortedUser(users);
